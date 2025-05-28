@@ -1,7 +1,7 @@
 export const name = "Scaffold-ETH 2 + Serwist";
 export const description = "A Progressive Web App built with Scaffold-ETH 2";
 export const iconPath = ""; // allows to omit default SE-2 icons in manifest.json
-export const extraContent = {
+export const extraContents = {
   short_name: "Scaffold-Serwist",
   display: "standalone",
   orientation: "portrait",
