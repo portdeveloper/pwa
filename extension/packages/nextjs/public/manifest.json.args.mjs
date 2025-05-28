@@ -1,9 +1,8 @@
-export default {
-  name: ["Scaffold-ETH 2 + Serwist"],
-  description: ["A Progressive Web App built with Scaffold-ETH 2"],
-  iconPath: null, // Not using the default icon path
-  extraContent: [{
-    short_name: "Scaffold-Serwist",
+export const name = "Scaffold-ETH 2 + Serwist"
+export const description = "A Progressive Web App built with Scaffold-ETH 2"
+export const iconPath = "" // allows to omit default SE-2 icons in manifest.json
+export const extraContents = {
+  short_name: "Scaffold-Serwist",
     display: "standalone",
     orientation: "portrait",
     theme_color: "#FFFFFF",
@@ -21,6 +20,5 @@ export default {
         sizes: "512x512",
         type: "image/png"
       }
-    ]
-  }]
-};
+  ]
+}
