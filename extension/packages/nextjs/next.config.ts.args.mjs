@@ -16,4 +16,4 @@ return nextConfig;
 }
 `
 
-export const finalNextConfigName = "nextConfig"
+export const finalNextConfigName = "serwist"
